@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"],
     "target": "ESNext",                  // Use the latest ECMAScript features
     "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
     "allowJs": false,                    // Disallow JavaScript files for type safety
