@@ -13,7 +13,7 @@
 //     '/((?!_next|[^?]*\\.(?:html?|css|js|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
 //   ],
 // };
-import { authMiddleware } from "@clerk/nextjs/dist/types/server";
+import { authMiddleware } from "@clerk/nextjs/server";
  
 export default authMiddleware({
   publicRoutes: ['/', '/api/webhooks/clerk', '/api/webhooks/stripe']
